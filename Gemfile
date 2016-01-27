@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 # Use bcrypt secure hash password framework
 gem 'bcrypt', '3.1.7'
+# Use Faker to create sample users.
+gem 'faker', '1.4.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.2'
 # Use Bootstrap css framework
