@@ -7,10 +7,14 @@ gem 'rails', '4.2.0'
 gem 'bcrypt', '3.1.7'
 # Use Faker to create sample users.
 gem 'faker', '1.4.2'
+# Use will_paginate to add pages to your list
+gem 'will_paginate', '3.0.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.2'
 # Use Bootstrap css framework
 gem 'bootstrap-sass', '3.2.0.0'
+# Use Bootstrap's will_paginate to add CSS to pagination
+gem 'bootstrap-will_paginate', '0.0.10'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '2.5.3'
 # Use CoffeeScript for .coffee assets and views
