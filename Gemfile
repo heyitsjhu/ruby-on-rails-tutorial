@@ -5,8 +5,13 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 # Use bcrypt secure hash password framework
 gem 'bcrypt', '3.1.7'
-# Use Faker to create sample users.
+# Use Faker to create sample users
 gem 'faker', '1.4.2'
+# Use CarrierWave for image uploads
+gem 'carrierwave', '0.10.0'
+gem 'mini_magick', '3.8.0'
+gem 'fog', '1.23.0'
+gem 'net-ssh'
 # Use will_paginate to add pages to your list
 gem 'will_paginate', '3.0.7'
 # Use SCSS for stylesheets
